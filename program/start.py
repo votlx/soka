@@ -57,7 +57,7 @@ async def _human_time_duration(seconds):
 
 
 @Client.on_message(
-    command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited
+    command(["staart", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited
 )
 async def start_(client: Client, message: Message):
     await message.reply_photo(
@@ -74,7 +74,7 @@ async def start_(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("𓄼ᴅᴇᴠ ᴠᴏᴛʟх𓄹", url=f"https://t.me/votlx"),
+                    InlineKeyboardButton("𓄹𝙳𝙴𝚅 𝚅𝙾𝚃𝙻𝚇𓄹", url=f"https://t.me/votlx"),
                     InlineKeyboardButton("𓄼𝙳𝙴𝚅 𝙷𝙰𝚂𝚂𝙰𝙽𓄹", url=f"https://t.me/D_bb_D"),
                 ],
                 [InlineKeyboardButton("𓄼طريقة التفعيل𓄹", callback_data="cbhowtouse")],
@@ -108,7 +108,7 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
             [
                [
-                InlineKeyboardButton("𓄼ᴅᴇᴠ ᴠᴏᴛʟх𓄹", url=f"https://t.me/votlx"),
+                InlineKeyboardButton("𓄹𝙳𝙴𝚅 𝚅𝙾𝚃𝙻𝚇𓄹", url=f"https://t.me/votlx"),
                 InlineKeyboardButton("𓄼𝙳𝙴𝚅 𝙷𝙰𝚂𝚂𝙰𝙽𓄹", url=f"https://t.me/D_bb_D"),
             ],
                 [       
@@ -161,14 +161,14 @@ async def start(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("𓄼ᴅᴇᴠ ᴠᴏᴛʟх𓄹", url=f"https://t.me/votlx"),
+                InlineKeyboardButton("𓄹𝙳𝙴𝚅 𝚅𝙾𝚃𝙻𝚇𓄹", url=f"https://t.me/votlx"),
                 InlineKeyboardButton("𓄼𝙳𝙴𝚅 𝙷𝙰𝚂𝚂𝙰𝙽𓄹", url=f"https://t.me/D_bb_D"),
             ],
             [InlineKeyboardButton("𓄼الاوامــر𓄹", callback_data="cbcmds"),
                 ],
             [
                 InlineKeyboardButton(
-                    "⌯ 𝐒𝐄𝐋𝐕𝐀 𝐌𝐔𝐒𝐈𝐂 🎶 ⌯", url=f"https://t.me/T_8_T_T"
+                    "⌯ 𝐃𝐈𝐀𝐌𝐎𝐍𝐃 𝐌𝐔𝐒𝐈𝐂 🎶 ⌯", url=f"https://t.me/T_8_T_T"
                 ),
             ],
             [
