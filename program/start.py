@@ -75,7 +75,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("𓄹𝙳𝙴𝚅 𝚅𝙾𝚃𝙻𝚇𓄹", url=f"https://t.me/votlx"),
-                    InlineKeyboardButton("𓄼𝙳𝙴𝚅 𝙷𝙰𝚂𝚂𝙰𝙽𓄹", url=f"https://t.me/D_bb_D"),
+                    InlineKeyboardButton("𓄼𝙳𝙴𝚅 𝙺𝙸𝙽𝙰𝙽𓄹", url=f"https://t.me/K_in4"),
                 ],
                 [InlineKeyboardButton("𓄼طريقة التفعيل𓄹", callback_data="cbhowtouse")],
                 [InlineKeyboardButton("𓄼الاوامــر𓄹", callback_data="cbcmds"),
@@ -109,7 +109,7 @@ async def alive(client: Client, message: Message):
             [
                [
                 InlineKeyboardButton("𓄹𝙳𝙴𝚅 𝚅𝙾𝚃𝙻𝚇𓄹", url=f"https://t.me/votlx"),
-                InlineKeyboardButton("𓄼𝙳𝙴𝚅 𝙷𝙰𝚂𝚂𝙰𝙽𓄹", url=f"https://t.me/D_bb_D"),
+                InlineKeyboardButton("𓄼𝙳𝙴𝚅 𝙺𝙸𝙽𝙰𝙽𓄹", url=f"https://t.me/K_in4"),
             ],
                 [       
                     InlineKeyboardButton(
@@ -122,7 +122,7 @@ async def alive(client: Client, message: Message):
         ]
     ) 
 
-    alive = f"**⌯ اهلا بك يا  {message.from_user.mention()}   \n ⌯ في سورس دايموندميوزك 🎵 الجمدان ❤️ \n⌯ مطورين سورس دايموندميوزك ⬇️** "
+    alive = f"**⌯ اهلا بك يا  {message.from_user.mention()}   \n ⌯ في سورس دايموند ❤️ \n⌯ مطورين سورس دايموند ⬇️** "
 
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",
@@ -162,7 +162,7 @@ async def start(client: Client, message: Message):
          [
             [
                 InlineKeyboardButton("𓄹𝙳𝙴𝚅 𝚅𝙾𝚃𝙻𝚇𓄹", url=f"https://t.me/votlx"),
-                InlineKeyboardButton("𓄼𝙳𝙴𝚅 𝙷𝙰𝚂𝚂𝙰𝙽𓄹", url=f"https://t.me/D_bb_D"),
+                InlineKeyboardButton("𓄼𝙳𝙴𝚅 𝙺𝙸𝙽𝙰𝙽𓄹", url=f"https://t.me/K_in4"),
             ],
             [InlineKeyboardButton("𓄼الاوامــر𓄹", callback_data="cbcmds"),
                 ],
